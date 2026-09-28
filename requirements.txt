@@ -1,0 +1,6 @@
+# Data handling and calculations; implement both classifiers from scratch.
+numpy>=1.24,<3
+pandas>=2.0,<3
+matplotlib>=3.7,<4
+# Allowed only for splitting, preprocessing, and evaluation.
+scikit-learn>=1.3,<2
