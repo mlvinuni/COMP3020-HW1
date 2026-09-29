@@ -303,7 +303,7 @@ def tune_knn(
 
 
 def run_experiments(df: pd.DataFrame, output_dir: Path, seed: int = SEED) -> None:
-    """TODO: implement the full experiment pipeline described in ASSIGNMENT.md.
+    """TODO: implement the full experiment pipeline described in docs/README.md.
 
     Suggested sequence:
     1. Inspect anomalies, prepare cohorts, split once, save split IDs.
@@ -368,7 +368,7 @@ def main(argv: list[str] | None = None) -> int:
     try:
         run_experiments(df, args.output, args.seed)
     except NotImplementedError as exc:
-        print(f"Starter TODO: {exc}. See ASSIGNMENT.md.", file=sys.stderr)
+        print(f"Starter TODO: {exc}. See docs/README.md.", file=sys.stderr)
         return 2
     return 0
 
